@@ -1,0 +1,21 @@
+body {
+    background-color: #BDF1F4;
+    font-family: 'Do Hyeon', sans-serif;
+    padding: 30px 30px 30px 30px;
+}
+
+
+#textbox{
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    color: #17666B;
+	border-radius: 20px;
+    padding: 20px 30px 30px 30px;
+
+
+}
+#title {
+font-size: 30px;
+}
