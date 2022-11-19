@@ -1,0 +1,87 @@
+* {
+    font-size: small;
+    font-weight: bold;
+}
+body {
+    background-color: #BDF1F4;
+}
+.background {
+    /* 모바일 버전일 때, 화면에 꽉차도록 */
+    width: 100vw;
+    height: 100vh;
+    max-width: 450px;
+
+    background-position: center;
+    background-size: cover;
+
+    margin: auto;
+}
+.progress {
+    margin: 20% 5% 2%;
+}
+
+.box {
+    background-color: #94F0F0;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: #fff;
+
+    text-align: center;
+    color: #17666B;
+
+    margin: auto;
+}
+p {
+    margin: 0;
+}
+
+.box>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3vh;
+}
+.box>div>img {
+    padding: 3%;
+}
+.box>div>div {
+    padding: 3%;
+}
+.box2 {
+    padding: 3vh 0;
+}
+.answer {
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #0099AE;
+
+    text-align: center;
+    color: #17666B;
+
+    margin: auto;
+    
+    margin: 5% 2%;
+    padding: 3% 2%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+}
