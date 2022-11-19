@@ -5,6 +5,19 @@ body {
     padding: 30px 30px 30px 30px;
 }
 
+
+.background {
+    /* 모바일 버전일 때, 화면에 꽉차도록 */
+    width: 100vw;
+    height: 100vh;
+    max-width: 450px;
+
+    background-position: center;
+    background-size: cover;
+
+    margin: auto;
+}
+
 #textbox_1, #textbox_2{
     background-color: white;
     
@@ -17,11 +30,19 @@ body {
 
 	border-radius: 20px;
     border-style: dotted;
-    border-color:#BDF1F4 ;
+    border-color:#BDF1F4;
 
 }
 
+#textbox_2{
+    margin: 3vh auto;
+}
 
+#text3{
+    display:flex;
+    justify-content: center;
+
+}
 .text1{
     font-size: 25px;
 }
@@ -29,9 +50,22 @@ body {
     font-size: 40px;
 }
 .text2{
-    text-align: left; 
     font-size: 25px;
 }
-.map_exp{
-    text-align: right;
+.link-icon { 
+    display:flex;
+    justify-content: center;
+
+    margin: 0 auto;
+
+}
+
+.twitter { 
+    background-image: url("../img/icon-twitter.png"); 
+    background-repeat: no-repeat; 
+}
+
+.kakao { 
+    background-image: url("../img/icon-kakao.png"); 
+    background-repeat: no-repeat; 
 }

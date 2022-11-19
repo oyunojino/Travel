@@ -20,33 +20,46 @@
 			@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 		</style>
 
+		<!-- <link rel="stylesheet" href="css/reset.css" type="text/css" /> -->
 		<link rel="stylesheet" href="css/Result.css" type="text/css" />
 	</head>
 	<body>
-		<!-- 1st box -->
-		<div id="textbox_1">
-			<p class="text1">당신의 여행 MBTI</p>
+		<div class="background">
+			<!-- 1st box -->
+			<div id="textbox_1">
+				<p class="text1">당신의 여행 MBTI</p>
 
-			<p class="mbti_text">ESTP</p>
-			<br />
+				<p class="mbti_text">ESTP</p>
+				<br />
 
-			<p class="text_exp">
-				qdasfoisdjfpaosjfopajspdiofjpaiosdjfipoadjfoji
-				adpsfoiasdjfopapdoifjapsodjfo
-			</p>
+				<p class="text_exp">
+					qdasfoisdjfpaosjfopajspdiofjpaiosdjfipoadjfoji
+					adpsfoiasdjfopapdoifjapsodjfo
+				</p>
+			</div>
+
+			<!-- 2 box -->
+			<div id="textbox_2">
+				<div class="text2">여행지 추천</div>
+
+				<div id="text3">
+					<div div id="map" style="width: 40%; height: 200px"></div>
+					<div id="map_exp">
+						qdasfoisdjfpaosjfopajspdiofjpaiosdjfipoadjfoji
+						adpsfoiasdjfopapdoifjapsodjfo
+					</div>
+				</div>
+			</div>
+
+			<div class="link-icon">
+				<a id="btnTwitter" class="twitter" href="javascript:shareTwitter();"
+					>트위터</a
+				>
+				<a id="btnKakao" class="kakao" href="javascript:shareKakao();">
+					카카오톡</a
+				>
+			</div>
 		</div>
-		<br />
-
-		<!-- 2 box -->
-		<div id="textbox_2">
-			<p class="text2">여행지 추천</p>
-			<div div id="map" style="width: 40%; height: 200px"></div>
-			<p class="map_exp">
-				qdasfoisdjfpaosjfopajspdiofjpaiosdjfipoadjfoji
-				adpsfoiasdjfopapdoifjapsodjfo
-			</p>
-		</div>
-
 		<!-- map api script -->
 		<script>
 			var mapOptions = {
@@ -55,6 +68,18 @@
 			};
 
 			var map = new naver.maps.Map("map", mapOptions);
+
+			// 추후 수정 해야하는 부분 (SNS 공유)
+			function shareTwitter() {
+				var sendText = "여행 MBTI"; // 전달할 텍스트
+				var sendUrl = "https://www.naver.com"; // 전달할 URL
+				window.open(
+					"https://twitter.com/intent/tweet?text=" +
+						sendText +
+						"&url=" +
+						sendUrl
+				);
+			}
 		</script>
 	</body>
 </html>
