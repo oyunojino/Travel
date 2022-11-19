@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+		/>
+		<title>Travel</title>
+
+		<!-- 지도 api 링크 (ncpID 기입완) -->
+		<script
+			type="text/javascript"
+			src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=vjry5p8w6z"
+		></script>
+
+		<!-- 구글 폰트 링크 -->
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+		</style>
+
+		<link rel="stylesheet" href="css/Result.css" type="text/css" />
+	</head>
+	<body>
+		<!-- 1st box -->
+		<div id="textbox_1">
+			<p class="text1">당신의 여행 MBTI</p>
+
+			<p class="mbti_text">ESTP</p>
+			<br />
+
+			<p class="text_exp">
+				qdasfoisdjfpaosjfopajspdiofjpaiosdjfipoadjfoji
+				adpsfoiasdjfopapdoifjapsodjfo
+			</p>
+		</div>
+		<br />
+
+		<!-- 2 box -->
+		<div id="textbox_2">
+			<p class="text2">여행지 추천</p>
+			<div div id="map" style="width: 40%; height: 200px"></div>
+			<p class="map_exp">
+				qdasfoisdjfpaosjfopajspdiofjpaiosdjfipoadjfoji
+				adpsfoiasdjfopapdoifjapsodjfo
+			</p>
+		</div>
+
+		<!-- map api script -->
+		<script>
+			var mapOptions = {
+				center: new naver.maps.LatLng(37.3595704, 127.105399),
+				zoom: 10,
+			};
+
+			var map = new naver.maps.Map("map", mapOptions);
+		</script>
+	</body>
+</html>

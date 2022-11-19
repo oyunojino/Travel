@@ -7,15 +7,28 @@ body {
 
 #textbox{
     background-color: white;
-    margin: auto;
-    width: 60%;
+
+    margin: 0 auto;
+    padding: 20px 30px 30px 30px;
+    width: 500px;
+
     text-align: center;
     color: #17666B;
-	border-radius: 20px;
-    padding: 20px 30px 30px 30px;
-
-
+	
+    border-radius: 20px;
 }
 #title {
 font-size: 30px;
+}
+
+#start_bt{
+    background-color: white;
+    border-style: dotted;
+    border-radius: 60px;
+    border-color: #0099AE;
+
+    padding: 15px 15px ;
+    
+    font-family: 'Do Hyeon', sans-serif;
+    color: #0099AE;
 }

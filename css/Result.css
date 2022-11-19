@@ -1,0 +1,37 @@
+body {
+    /* 공통 글꼴 및 메인 크기 */
+    background-color: #BDF1F4;
+    font-family: 'Do Hyeon', sans-serif;
+    padding: 30px 30px 30px 30px;
+}
+
+#textbox_1, #textbox_2{
+    background-color: white;
+    
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px 30px 30px 30px;
+    
+    text-align: center;
+    color: #17666B;
+
+	border-radius: 20px;
+    border-style: dotted;
+    border-color:#BDF1F4 ;
+
+}
+
+
+.text1{
+    font-size: 25px;
+}
+.mbti_text{
+    font-size: 40px;
+}
+.text2{
+    text-align: left; 
+    font-size: 25px;
+}
+.map_exp{
+    text-align: right;
+}
