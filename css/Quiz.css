@@ -1,6 +1,5 @@
 * {
-    font-size: small;
-    font-weight: bold;
+    font-family: 'Do Hyeon', sans-serif;
 }
 body {
     background-color: #BDF1F4;
@@ -66,6 +65,7 @@ p {
 
     text-align: center;
     color: #17666B;
+    font-size: small;
 
     margin: auto;
     
