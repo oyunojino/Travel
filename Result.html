@@ -53,11 +53,11 @@
 
 			<div class="link-icon">
 				<a id="btnTwitter" class="twitter" href="javascript:shareTwitter();"
-					>트위터</a
-				>
+					><img src="img/icon-twitter.png" alt="twitter"
+				/></a>
 				<a id="btnKakao" class="kakao" href="javascript:shareKakao();">
-					카카오톡</a
-				>
+					<img src="img/icon-kakao.png" alt="kakao"
+				/></a>
 			</div>
 		</div>
 		<!-- map api script -->
@@ -80,6 +80,29 @@
 						sendUrl
 				);
 			}
+		</script>
+
+		<script src="//developers.kakao.com/sdk/js/kakao.min.js">
+			function shareKakao() {
+						// 사용할 앱의 JavaScript 키 설정
+						Kakao.init("77d097af0c96757e6928f784e11c99d1");
+						console.log(Kakao.isInitialized());
+
+						// 카카오링크 버튼 생성
+						Kakao.Link.createDefaultButton({
+							container: "#btnKakao", // 카카오공유버튼ID
+							objectType: "feed",
+							content: {
+								title: "Travel MBTI", // 보여질 제목
+								description: "Travel", // 보여질 설명
+								imageUrl: "www.naver.com/", // 콘텐츠 URL
+								link: {
+									mobileWebUrl: "www.naver.com/",
+									webUrl: "www.naver.com/",
+								},
+							},
+						});
+					}
 		</script>
 	</body>
 </html>

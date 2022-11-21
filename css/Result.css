@@ -2,7 +2,7 @@ body {
     /* 공통 글꼴 및 메인 크기 */
     background-color: #BDF1F4;
     font-family: 'Do Hyeon', sans-serif;
-    padding: 30px 30px 30px 30px;
+
 }
 
 
@@ -62,19 +62,4 @@ body {
     justify-content: center;
 
     margin: 0 auto;
-
-    font-size: 14px; 
-    font-weight: 500; 
-    color: #333; 
-
-}
-
-.twitter { 
-    background-image: url("../img/icon-twitter.png"); 
-    background-repeat: no-repeat; 
-}
-
-.kakao { 
-    background-image: url("../img/icon-kakao.png"); 
-    background-repeat: no-repeat; 
-}
+} 
