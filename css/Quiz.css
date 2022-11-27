@@ -19,7 +19,7 @@ body {
     margin: 20% 5% 2%;
 }
 
-.box {
+.box1 {
     background-color: #94F0F0;
     background-position: center;
     background-size: cover;
@@ -37,7 +37,7 @@ p {
     margin: 0;
 }
 
-.box>div {
+.box1>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,10 +45,10 @@ p {
 
     padding: 3vh;
 }
-.box>div>img {
+.box1>div>img {
     padding: 3%;
 }
-.box>div>div {
+.box1>div>div {
     padding: 3%;
 }
 .box2 {
