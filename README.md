@@ -1,7 +1,7 @@
 # Travel
 
 ### 회의록
-참고 : [오윤진 Notion](https://darkened-crest-275.notion.site/Travel-f51001409d954a5696e9f4524d13bbba)
+참고 : [Notion_Travel](https://darkened-crest-275.notion.site/Travel-f51001409d954a5696e9f4524d13bbba)
 
 - (22.11.12) 1차_ 기획
 - (22.11.13) 2차_ 기획
